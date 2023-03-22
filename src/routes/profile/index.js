@@ -1,7 +1,8 @@
 const ProfileRouter = require('express').Router()
 
-ProfileRouter.route('/post')
+ProfileRouter.route('/profile')
     .get(require('./post.view'))
+    
     
 
     ProfileRouter.route('/profile')

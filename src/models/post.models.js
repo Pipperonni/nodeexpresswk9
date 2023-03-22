@@ -2,11 +2,6 @@ const mongoose = require('mongoose')
 
 const postSchema = new mongoose.Schema(
     {
-        slug: {
-            type: String,
-            unique: String,
-            required: true
-        },
         userId: {
             type: String,
             unique: String,
